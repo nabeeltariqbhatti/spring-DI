@@ -17,10 +17,10 @@ public class HomeController {
 	
 	@RequestMapping("/home")
 
-	public ModelAndView getFoosBySimplePath(@RequestParam("name")String name) {
+	public ModelAndView getFoosBySimplePath(Alien alien) {
 		
 	    ModelAndView mv =new ModelAndView();
-		mv.addObject("name",name);
+		mv.addObject("obj",alien);
 		mv.setViewName("home.jsp");
 		
 	    return mv;
