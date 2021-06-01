@@ -66,8 +66,9 @@ public class UserController {
 	}
 
 	@PutMapping(value = "/{userId}", consumes = { MediaType.APPLICATION_ATOM_XML_VALUE,
-			MediaType.APPLICATION_JSON_VALUE })
-	public ResponseEntity<UserRest> updateUser(@PathVariable String userId, @RequestBody UserRest userRest) {
+			MediaType.APPLICATION_JSON_VALUE }, produces = { MediaType.APPLICATION_ATOM_XML_VALUE,
+					MediaType.APPLICATION_JSON_VALUE })
+	public ResponseEntity<UserRest> updateUser(@PathVariable String userId, @Valid @RequestBody UserDetail userDetail) {
 		if (users.get(userId) != null) {
 			users.replace(userId, users.get(userId), userRest);
 			UserRest returnValue = users.get(userId);
