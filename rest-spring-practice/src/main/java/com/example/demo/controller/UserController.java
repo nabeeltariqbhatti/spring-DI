@@ -32,6 +32,7 @@ public class UserController {
 	@GetMapping
 	public Map<String, UserRest> getUsers(
 			@RequestParam(value = "name", defaultValue = "Unknown", required = false) String name) {
+
 		return users;
 	}
 
