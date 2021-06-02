@@ -1,11 +1,10 @@
 package com.example.demo.controller;
 
-import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 import javax.validation.Valid;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -19,9 +18,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.exception.UserServiceException;
 import com.example.demo.model.UserRest;
 import com.example.demo.request.UserDetail;
 import com.example.demo.request.UserPut;
+import com.example.demo.userservice.UserService;
 
 @RestController
 @RequestMapping("users") // https://localhost:8080/users
@@ -29,10 +30,14 @@ public class UserController {
 
 	Map<String, UserRest> users;
 
+	@Autowired
+	UserService userService;
+
 	@GetMapping
 	public Map<String, UserRest> getUsers(
 			@RequestParam(value = "name", defaultValue = "Unknown", required = false) String name) {
-
+		if (true)
+			throw new UserServiceException("A user Service exception is thrown..");
 		return users;
 	}
 
@@ -51,20 +56,8 @@ public class UserController {
 			MediaType.APPLICATION_ATOM_XML_VALUE, MediaType.APPLICATION_JSON_VALUE })
 	public ResponseEntity<UserRest> craeteUser(@Valid @RequestBody UserDetail userDetail) {
 
-		UserRest returnValue = new UserRest();
+		UserRest returnValue = userService.createUser(userDetail);
 
-		returnValue.setFirstName(userDetail.getFirstName());
-		returnValue.setLastName(userDetail.getLastName());
-		returnValue.setEmail(userDetail.getEmail());
-		String userId = UUID.randomUUID().toString();
-		returnValue.setUserId(userId);
-
-		if (users == null) {
-			users = new HashMap<>();
-			users.put(userId, returnValue);
-		} else {
-			users.put(userId, returnValue);
-		}
 		return new ResponseEntity<UserRest>(returnValue, HttpStatus.CREATED);
 	}
 
