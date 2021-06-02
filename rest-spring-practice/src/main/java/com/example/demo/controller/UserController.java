@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.model.UserRest;
 import com.example.demo.request.UserDetail;
+import com.example.demo.request.UserPut;
 
 @RestController
 @RequestMapping("users") // https://localhost:8080/users
@@ -29,8 +30,9 @@ public class UserController {
 	Map<String, UserRest> users;
 
 	@GetMapping
-	public String getUsers(@RequestParam(value = "name", defaultValue = "Unknown", required = true) String name) {
-		return "all the user have been returned with name " + name;
+	public Map<String, UserRest> getUsers(
+			@RequestParam(value = "name", defaultValue = "Unknown", required = false) String name) {
+		return users;
 	}
 
 	@GetMapping(path = "/{userId}", produces = { MediaType.APPLICATION_ATOM_XML_VALUE,
@@ -68,22 +70,26 @@ public class UserController {
 	@PutMapping(value = "/{userId}", consumes = { MediaType.APPLICATION_ATOM_XML_VALUE,
 			MediaType.APPLICATION_JSON_VALUE }, produces = { MediaType.APPLICATION_ATOM_XML_VALUE,
 					MediaType.APPLICATION_JSON_VALUE })
-	public ResponseEntity<UserRest> updateUser(@PathVariable String userId, @Valid @RequestBody UserDetail userDetail) {
+	public ResponseEntity<UserRest> updateUser(@PathVariable String userId, @Valid @RequestBody UserPut userPut) {
 		if (users.get(userId) != null) {
-			users.replace(userId, users.get(userId), userRest);
-			UserRest returnValue = users.get(userId);
-			returnValue.setUserId(userId);
 
-			return new ResponseEntity<UserRest>(returnValue, HttpStatus.ACCEPTED);
+			UserRest oldreturnValue = users.get(userId);
+			UserRest newReturnValue = new UserRest();
+			newReturnValue.setFirstName(userPut.getFirstName());
+			newReturnValue.setLastName(userPut.getLastName());
+			newReturnValue.setEmail(oldreturnValue.getEmail());
+			newReturnValue.setUserId(oldreturnValue.getUserId());
+			users.replace(userId, oldreturnValue, newReturnValue);
+
+			return new ResponseEntity<UserRest>(users.get(newReturnValue.getUserId()), HttpStatus.ACCEPTED);
 		} else {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 
 		}
 	}
 
-	@DeleteMapping
-
-	public String deleteUser() {
-		return "delete user was called";
+	@DeleteMapping(path = "/{userId}")
+	public ResponseEntity<String> deleteUser(@PathVariable String userId) {
+		return new ResponseEntity<String>("User with Id" + userId + " has been deleted", HttpStatus.OK);
 	}
 }
