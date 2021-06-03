@@ -6,6 +6,7 @@ import java.util.UUID;
 
 import javax.validation.Valid;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.model.UserRest;
@@ -20,6 +21,7 @@ public class UserServiceImplementation implements UserService {
 
 	Utils utils;
 
+	@Autowired
 	UserServiceImplementation() {
 	}
 
