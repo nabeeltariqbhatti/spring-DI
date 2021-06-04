@@ -1,15 +1,16 @@
 package com.userservice.entity.copy;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class User {
 
 	private Long userId;
 	private String name;
 	private String phone;
-	ArrayList<Contact> contacts = new ArrayList();
+	List<Contact> contacts = new ArrayList<Contact>();
 
-	public User(Long userId, String name, String phone, ArrayList<Contact> contacts) {
+	public User(Long userId, String name, String phone, List<Contact> contacts) {
 		super();
 		this.userId = userId;
 		this.name = name;
@@ -52,11 +53,11 @@ public class User {
 		this.phone = phone;
 	}
 
-	public ArrayList<Contact> getContacts() {
+	public List<Contact> getContacts() {
 		return contacts;
 	}
 
-	public void setContacts(ArrayList<Contact> contacts) {
+	public void setContacts(List<Contact> contacts) {
 		this.contacts = contacts;
 	}
 
