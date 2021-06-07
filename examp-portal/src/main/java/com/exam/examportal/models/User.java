@@ -25,7 +25,7 @@ public class User {
 	private String lastName;
 	private String email;
 	private String password;
-	private String username;
+	private String userName;
 	private String phone;
 	private boolean enabled = true;
 	private String profile;
@@ -33,6 +33,9 @@ public class User {
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "user")
 	@JsonIgnore
 	private Set<UserRole> userRoles = new HashSet<>();
+
+	public User() {
+	}
 
 	public Set<UserRole> getUserRoles() {
 		return userRoles;
@@ -42,17 +45,17 @@ public class User {
 		this.userRoles = userRoles;
 	}
 
-	public User(Long id, String firstName, String lastName, String email, String password, String username,
-			String phone, boolean enabled, String profile) {
+	public User(String firstName, String lastName, String email, String password, String userName, String phone,
+			String profile) {
 		super();
-		this.id = id;
+
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
 		this.password = password;
-		this.username = username;
+		this.userName = userName;
 		this.phone = phone;
-		this.enabled = enabled;
+
 		this.profile = profile;
 	}
 
@@ -104,12 +107,12 @@ public class User {
 		this.password = password;
 	}
 
-	public String getUsername() {
-		return username;
+	public String getuserName() {
+		return userName;
 	}
 
-	public void setUsername(String username) {
-		this.username = username;
+	public void setuserName(String userName) {
+		this.userName = userName;
 	}
 
 	public String getPhone() {
@@ -131,7 +134,7 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
-				+ ", password=" + password + ", username=" + username + ", phone=" + phone + ", enabled=" + enabled
+				+ ", password=" + password + ", userName=" + userName + ", phone=" + phone + ", enabled=" + enabled
 				+ "]";
 	}
 

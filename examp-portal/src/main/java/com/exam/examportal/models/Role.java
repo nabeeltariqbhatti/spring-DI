@@ -34,9 +34,9 @@ public class Role {
 		this.userRoles = userRoles;
 	}
 
-	public Role(Long roleId, String role) {
+	public Role(String role) {
 		super();
-		this.roleId = roleId;
+
 		this.role = role;
 	}
 
