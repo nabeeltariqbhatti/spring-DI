@@ -15,25 +15,25 @@ import com.exam.examportal.service.UserService;
 
 @SpringBootApplication
 public class ExampPortalApplication implements CommandLineRunner {
-	@Autowired
-	private UserService userSerivce;
+    @Autowired
+    private UserService userSerivce;
 
-	public static void main(String[] args) {
-		SpringApplication.run(ExampPortalApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ExampPortalApplication.class, args);
+    }
 
-	@Override
-	public void run(String... args) throws Exception {
-		System.out.println("starting code");
-		User user = new User("firstname", "lastname", "email", "password", "username", "profile", "admin");
+    @Override
+    public void run(String... args) throws Exception {
+        System.out.println("starting code");
+        User user = new User("firstname", "lastname", "email", "password", "username", "profile", "admin");
 
-		Role role = new Role("admin");
+        Role role = new Role("admin");
 
-		Set<UserRole> userRoles = new HashSet<>();
+        Set<UserRole> userRoles = new HashSet<>();
 
-		userRoles.add(new UserRole(user, role));
-		this.userSerivce.createUser(user, userRoles);
+        userRoles.add(new UserRole(user, role));
+        this.userSerivce.createUser(user, userRoles);
 
-	}
+    }
 
 }

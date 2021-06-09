@@ -6,5 +6,5 @@ import com.contcatservice.entity.Contact;
 
 public interface ContactService {
 
-	public List<Contact> getContactsOfUser(Long userId);
+    public List<Contact> getContactsOfUser(Long userId);
 }

@@ -9,13 +9,13 @@ import com.limits.example.bean.limitsConfiguration;
 @RestController
 public class LimitsConfigurationController {
 
-	@Autowired
-	private limitsConfiguration limits;
+    @Autowired
+    private limitsConfiguration limits;
 
-	@GetMapping("/limits")
-	public limitsConfiguration returnLimits() {
+    @GetMapping("/limits")
+    public limitsConfiguration returnLimits() {
 
-		return new limitsConfiguration((int) limits.getMaximum(), (int) limits.getMinimum());
-	}
+        return new limitsConfiguration((int) limits.getMaximum(), (int) limits.getMinimum());
+    }
 
 }

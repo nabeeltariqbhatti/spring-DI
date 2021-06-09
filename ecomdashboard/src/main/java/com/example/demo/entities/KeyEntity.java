@@ -6,18 +6,18 @@ import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
 public class KeyEntity {
-	
-	@Id
-	@Column(name="pk", unique = true)
-	private String pk;
 
-	public String getPk() {
-		return pk;
-	}
+    @Id
+    @Column(name = "pk", unique = true)
+    private String pk;
 
-	public void setPk(String pk) {
-		this.pk = pk;
-	}
-	
+    public String getPk() {
+        return pk;
+    }
+
+    public void setPk(String pk) {
+        this.pk = pk;
+    }
+
 
 }

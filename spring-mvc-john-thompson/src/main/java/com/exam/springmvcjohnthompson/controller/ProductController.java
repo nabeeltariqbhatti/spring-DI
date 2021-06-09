@@ -11,27 +11,27 @@ import com.exam.springmvcjohnthompson.service.ProductService;
 @Controller
 
 public class ProductController {
-	private ProductService productService;
+    private ProductService productService;
 
-	@Autowired
-	public void setProductService(ProductService productService) {
-		this.productService = productService;
-	}
+    @Autowired
+    public void setProductService(ProductService productService) {
+        this.productService = productService;
+    }
 
-	@RequestMapping("/products")
-	public String listProducts(Model model) {
+    @RequestMapping("/products")
+    public String listProducts(Model model) {
 
-		model.addAttribute("products", productService.listAllProducts());
+        model.addAttribute("products", productService.listAllProducts());
 
-		return "products";
-	}
+        return "products";
+    }
 
-	@RequestMapping("/product/{id}")
-	public String getProduct(@PathVariable Integer id, Model model) {
+    @RequestMapping("/product/{id}")
+    public String getProduct(@PathVariable Integer id, Model model) {
 
-		model.addAttribute("product", productService.getProductById(id));
+        model.addAttribute("product", productService.getProductById(id));
 
-		return "product";
-	}
+        return "product";
+    }
 
 }

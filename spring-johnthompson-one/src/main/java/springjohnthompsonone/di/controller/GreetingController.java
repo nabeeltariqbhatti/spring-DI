@@ -8,18 +8,18 @@ import springjohnthompsonone.di.service.HelloWorldService;
 @Controller
 public class GreetingController {
 
-	private HelloWorldService helloWorldService;
+    private HelloWorldService helloWorldService;
 
-	@Autowired
-	public void setHelloWorldService(HelloWorldService helloWorldService) {
-		this.helloWorldService = helloWorldService;
-	}
+    @Autowired
+    public void setHelloWorldService(HelloWorldService helloWorldService) {
+        this.helloWorldService = helloWorldService;
+    }
 
-	public String sayHello() {
-		String greetings = helloWorldService.getGreeting();
-		System.out.println("greeeted  " + greetings);
+    public String sayHello() {
+        String greetings = helloWorldService.getGreeting();
+        System.out.println("greeeted  " + greetings);
 
-		return greetings;
-	}
+        return greetings;
+    }
 
 }

@@ -8,15 +8,14 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class FirstprojectApplication {
 
-	public static void main(String[] args) {
-		ConfigurableApplicationContext coxt=  SpringApplication.run(FirstprojectApplication.class, args);
-	
-	Alien alien =(Alien) coxt.getBean("alien");
-	
-	alien.show();
-	
-	
-	
-	}
+    public static void main(String[] args) {
+        ConfigurableApplicationContext coxt = SpringApplication.run(FirstprojectApplication.class, args);
+
+        Alien alien = (Alien) coxt.getBean("alien");
+
+        alien.show();
+
+
+    }
 
 }

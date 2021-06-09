@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="752059a4-146f-4e1f-8611-950bab4e41b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/PayRoll/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayRoll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/EmployeeModelAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/EmployeeModelAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/EmployeeNotFoundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/EmployeeNotFoundAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/EmployeeNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/EmployeeNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/LoadDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/LoadDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/RestSpringPracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/src/main/java/com/example/demo/RestSpringPracticeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PayRoll/src/test/java/com/example/demo/RestSpringPracticeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/PayRoll/src/test/java/com/example/demo/RestSpringPracticeApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-apigateway/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-apigateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-apigateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-apigateway/src/main/java/com/cloudapigateway/CloudApigatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-apigateway/src/main/java/com/cloudapigateway/CloudApigatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-apigateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-apigateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-apigateway/src/test/java/com/cloudapigateway/CloudApigatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-apigateway/src/test/java/com/cloudapigateway/CloudApigatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/contact/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/contact/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/src/main/java/com/contcatservice/ContactApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/contact/src/main/java/com/contcatservice/ContactApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/src/main/java/com/contcatservice/controller/ContactServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/contact/src/main/java/com/contcatservice/controller/ContactServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/src/main/java/com/contcatservice/entity/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/contact/src/main/java/com/contcatservice/entity/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/src/main/java/com/contcatservice/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/contact/src/main/java/com/contcatservice/service/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/src/main/java/com/contcatservice/service/ContactServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/contact/src/main/java/com/contcatservice/service/ContactServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/contact/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/src/test/java/com/contcatservice/ContactApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/contact/src/test/java/com/contcatservice/ContactApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demoapp/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/src/main/java/demoapp/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoapp/src/main/java/demoapp/AddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/src/main/java/demoapp/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoapp/src/main/java/demoapp/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/src/main/java/demoapp/SquareServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoapp/src/main/java/demoapp/SquareServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/src/main/webapp/WEB-INF/lib/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demoapp/src/main/webapp/WEB-INF/lib/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demoapp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/src/main/webapp/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demoapp/src/main/webapp/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoapp/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demoapp/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/EcomdashboardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/EcomdashboardApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/CompanyRevenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/CompanyRevenue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/EmployeeInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/EmployeeInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/KeyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/KeyEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/OrderCollectionStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/OrderCollectionStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/OrderReceived.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/OrderReceived.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/src/main/java/com/example/demo/entities/ProductCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomdashboard/src/test/java/com/example/demo/EcomdashboardApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecomdashboard/src/test/java/com/example/demo/EcomdashboardApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eserver/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/eserver/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eserver/src/main/java/com/eserver/EserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eserver/src/main/java/com/eserver/EserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eserver/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eserver/src/test/java/com/eserver/EserverApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eserver/src/test/java/com/eserver/EserverApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/ExampPortalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/ExampPortalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/models/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/models/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/repo/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/repo/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/src/main/java/com/exam/examportal/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examp-portal/src/test/java/com/exam/examportal/ExampPortalApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/examp-portal/src/test/java/com/exam/examportal/ExampPortalApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/demo/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/demo/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/demo/FirstprojectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/demo/FirstprojectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/demo/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/demo/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/test/java/com/example/demo/FirstprojectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/test/java/com/example/demo/FirstprojectApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limits-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limits-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limits-service/src/main/java/com/limits/example/LimitsServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/limits/example/LimitsServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limits-service/src/main/java/com/limits/example/bean/limitsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/limits/example/bean/limitsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limits-service/src/main/java/com/limits/example/controller/LimitsConfigurationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/limits/example/controller/LimitsConfigurationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limits-service/src/test/java/com/limits/example/LimitsServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/test/java/com/limits/example/LimitsServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mave/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mave/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mave/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mave/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mave/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mave/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mave/target/m2e-wtp/web-resources/META-INF/maven/mvc/mave/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mave/target/m2e-wtp/web-resources/META-INF/maven/mvc/mave/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven.srping/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven.srping/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven.srping/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven.srping/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven.srping/src/main/java/mvc/maven/srping/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven.srping/src/main/java/mvc/maven/srping/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven.srping/src/test/java/mvc/maven/srping/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven.srping/src/test/java/mvc/maven/srping/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven.srping/target/classes/META-INF/maven/mvc/maven.srping/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven.srping/target/classes/META-INF/maven/mvc/maven.srping/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-brewery/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-brewery/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-brewery/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-brewery/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-brewery/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-brewery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-brewery/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-brewery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-brewery/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-brewery/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-brewery/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-brewery/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-brewery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-brewery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-brewery/src/main/java/com/guru/msscbrewery/MsscBreweryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-brewery/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-brewery/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-brewery/src/test/java/com/guru/msscbrewery/MsscBreweryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/RestSpringPracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/RestSpringPracticeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/UserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/exception/AppExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/exception/AppExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/exception/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/exception/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/exception/UserServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/exception/UserServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/model/UserRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/model/UserRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/request/UserDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/request/UserDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/request/UserPut.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/request/UserPut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/shared/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/shared/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/userservice/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/main/java/com/example/demo/userservice/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-spring-practice/src/test/java/com/example/demo/RestSpringPracticeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-spring-practice/src/test/java/com/example/demo/RestSpringPracticeApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/com/sprincloudconfigserver/SpringCloudConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/com/sprincloudconfigserver/SpringCloudConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/test/java/com/sprincloudconfigserver/SpringCloudConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/test/java/com/sprincloudconfigserver/SpringCloudConfigServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/HelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/InjectedByConstructorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/InjectedByConstructorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/SetterBasedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/SetterBasedService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/SpringJohnthompsonOneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/SpringJohnthompsonOneApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/controller/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/controller/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/service/HelloWorldImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/service/HelloWorldImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/service/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/service/HelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/service/HelloWorldUrduImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/src/main/java/springjohnthompsonone/di/service/HelloWorldUrduImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-johnthompson-one/src/test/java/springjohnthompsonone/di/SpringJohnthompsonOneApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-johnthompson-one/src/test/java/springjohnthompsonone/di/SpringJohnthompsonOneApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/SpringMvcJohnThompsonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/SpringMvcJohnThompsonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/java/com/exam/springmvcjohnthompson/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/src/main/resources/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-john-thompson/src/test/java/com/exam/springmvcjohnthompson/SpringMvcJohnThompsonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-john-thompson/src/test/java/com/exam/springmvcjohnthompson/SpringMvcJohnThompsonApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice-demo-app/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-practice-demo-app/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice-demo-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-practice-demo-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice-demo-app/src/main/java/com/example/demo/SpringPracticeDemoAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-practice-demo-app/src/main/java/com/example/demo/SpringPracticeDemoAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice-demo-app/src/main/java/com/example/demo/controller/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-practice-demo-app/src/main/java/com/example/demo/controller/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice-demo-app/src/main/java/com/example/demo/controller/CourseConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-practice-demo-app/src/main/java/com/example/demo/controller/CourseConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice-demo-app/src/main/java/com/example/demo/controller/RestEndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-practice-demo-app/src/main/java/com/example/demo/controller/RestEndPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice-demo-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-practice-demo-app/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice-demo-app/src/test/java/com/example/demo/SpringPracticeDemoAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-practice-demo-app/src/test/java/com/example/demo/SpringPracticeDemoAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-simple-webapp/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-simple-webapp/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-simple-webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-simple-webapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/SpringbootSimpleWebappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/SpringbootSimpleWebappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/bootstrap/BootStrapData.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/bootstrap/BootStrapData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/model/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/model/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/model/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/repository/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/repository/AuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/repository/PublisherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-simple-webapp/src/main/java/com/nabeelbhatti/springbootsimplewebapp/repository/PublisherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-simple-webapp/src/test/java/com/nabeelbhatti/springbootsimplewebapp/SpringbootSimpleWebappApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-simple-webapp/src/test/java/com/nabeelbhatti/springbootsimplewebapp/SpringbootSimpleWebappApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/entity/copy/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/entity/copy/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/entity/copy/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/entity/copy/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/service/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/userservice/service/UserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/com/userservice/UserServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/com/userservice/UserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com/example/demo/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/com/example/demo/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com/example/demo/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/com/example/demo/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com/example/demo/WebappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/com/example/demo/WebappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/webapp/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/test/java/com/example/demo/WebappApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/test/java/com/example/demo/WebappApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1thmPl9lVJrAKfoRvnvzRmx47it" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Msscbrewery2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msscbrewery2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mssc.brewery2.Msscbrewery2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="752059a4-146f-4e1f-8611-950bab4e41b4" name="Default Changelist" comment="" />
+      <created>1623229678483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623229678483</updated>
+      <workItem from="1623229680545" duration="1848000" />
+      <workItem from="1623231913316" duration="606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

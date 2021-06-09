@@ -28,62 +28,62 @@ import com.example.demo.userservice.UserService;
 @RequestMapping("users") // https://localhost:8080/users
 public class UserController {
 
-	Map<String, UserRest> users;
+    Map<String, UserRest> users;
 
-	@Autowired
-	UserService userService;
+    @Autowired
+    UserService userService;
 
-	@GetMapping
-	public Map<String, UserRest> getUsers(
-			@RequestParam(value = "name", defaultValue = "Unknown", required = false) String name) {
-		if (true)
-			throw new UserServiceException("A user Service exception is thrown..");
-		return users;
-	}
+    @GetMapping
+    public Map<String, UserRest> getUsers(
+            @RequestParam(value = "name", defaultValue = "Unknown", required = false) String name) {
+        if (true)
+            throw new UserServiceException("A user Service exception is thrown..");
+        return users;
+    }
 
-	@GetMapping(path = "/{userId}", produces = { MediaType.APPLICATION_ATOM_XML_VALUE,
-			MediaType.APPLICATION_JSON_VALUE })
-	public ResponseEntity<UserRest> getUser(@PathVariable String userId) {
-		if (users != null) {
-			return new ResponseEntity<UserRest>(users.get(userId), HttpStatus.FOUND);
-		} else {
-			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-		}
+    @GetMapping(path = "/{userId}", produces = {MediaType.APPLICATION_ATOM_XML_VALUE,
+            MediaType.APPLICATION_JSON_VALUE})
+    public ResponseEntity<UserRest> getUser(@PathVariable String userId) {
+        if (users != null) {
+            return new ResponseEntity<UserRest>(users.get(userId), HttpStatus.FOUND);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        }
 
-	}
+    }
 
-	@PostMapping(consumes = { MediaType.APPLICATION_ATOM_XML_VALUE, MediaType.APPLICATION_JSON_VALUE }, produces = {
-			MediaType.APPLICATION_ATOM_XML_VALUE, MediaType.APPLICATION_JSON_VALUE })
-	public ResponseEntity<UserRest> craeteUser(@Valid @RequestBody UserDetail userDetail) {
+    @PostMapping(consumes = {MediaType.APPLICATION_ATOM_XML_VALUE, MediaType.APPLICATION_JSON_VALUE}, produces = {
+            MediaType.APPLICATION_ATOM_XML_VALUE, MediaType.APPLICATION_JSON_VALUE})
+    public ResponseEntity<UserRest> craeteUser(@Valid @RequestBody UserDetail userDetail) {
+          System.out.println("okay");
+        UserRest returnValue = userService.createUser(userDetail);
 
-		UserRest returnValue = userService.createUser(userDetail);
+        return new ResponseEntity<UserRest>(returnValue, HttpStatus.CREATED);
+    }
 
-		return new ResponseEntity<UserRest>(returnValue, HttpStatus.CREATED);
-	}
+    @PutMapping(value = "/{userId}", consumes = {MediaType.APPLICATION_ATOM_XML_VALUE,
+            MediaType.APPLICATION_JSON_VALUE}, produces = {MediaType.APPLICATION_ATOM_XML_VALUE,
+            MediaType.APPLICATION_JSON_VALUE})
+    public ResponseEntity<UserRest> updateUser(@PathVariable String userId, @Valid @RequestBody UserPut userPut) {
+        if (users.get(userId) != null) {
 
-	@PutMapping(value = "/{userId}", consumes = { MediaType.APPLICATION_ATOM_XML_VALUE,
-			MediaType.APPLICATION_JSON_VALUE }, produces = { MediaType.APPLICATION_ATOM_XML_VALUE,
-					MediaType.APPLICATION_JSON_VALUE })
-	public ResponseEntity<UserRest> updateUser(@PathVariable String userId, @Valid @RequestBody UserPut userPut) {
-		if (users.get(userId) != null) {
+            UserRest oldreturnValue = users.get(userId);
+            UserRest newReturnValue = new UserRest();
+            newReturnValue.setFirstName(userPut.getFirstName());
+            newReturnValue.setLastName(userPut.getLastName());
+            newReturnValue.setEmail(oldreturnValue.getEmail());
+            newReturnValue.setUserId(oldreturnValue.getUserId());
+            users.replace(userId, oldreturnValue, newReturnValue);
 
-			UserRest oldreturnValue = users.get(userId);
-			UserRest newReturnValue = new UserRest();
-			newReturnValue.setFirstName(userPut.getFirstName());
-			newReturnValue.setLastName(userPut.getLastName());
-			newReturnValue.setEmail(oldreturnValue.getEmail());
-			newReturnValue.setUserId(oldreturnValue.getUserId());
-			users.replace(userId, oldreturnValue, newReturnValue);
+            return new ResponseEntity<UserRest>(users.get(newReturnValue.getUserId()), HttpStatus.ACCEPTED);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 
-			return new ResponseEntity<UserRest>(users.get(newReturnValue.getUserId()), HttpStatus.ACCEPTED);
-		} else {
-			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
 
-		}
-	}
-
-	@DeleteMapping(path = "/{userId}")
-	public ResponseEntity<String> deleteUser(@PathVariable String userId) {
-		return new ResponseEntity<String>("User with Id" + userId + " has been deleted", HttpStatus.OK);
-	}
+    @DeleteMapping(path = "/{userId}")
+    public ResponseEntity<String> deleteUser(@PathVariable String userId) {
+        return new ResponseEntity<String>("User with Id" + userId + " has been deleted", HttpStatus.OK);
+    }
 }

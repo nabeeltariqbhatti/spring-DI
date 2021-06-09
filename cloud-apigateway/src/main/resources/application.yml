@@ -6,13 +6,13 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: user-service
-        uri: lb://user-service
-        predicates:
-        - Path=/user/**
-      - id: contact-service
-        uri: lb://contact-service
-        predicates:
-        - Path=/contact/**
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/user/**
+        - id: contact-service
+          uri: lb://contact-service
+          predicates:
+            - Path=/contact/**
   application:
     name: api-gateway

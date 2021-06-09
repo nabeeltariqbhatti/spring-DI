@@ -14,19 +14,18 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HomeController {
-	
-	@RequestMapping("/home")
 
-	public ModelAndView getFoosBySimplePath(Alien alien) {
-		
-	    ModelAndView mv =new ModelAndView();
-		mv.addObject("obj",alien);
-		mv.setViewName("home.jsp");
-		
-	    return mv;
-	}
-	
-	
+    @RequestMapping("/home")
+
+    public ModelAndView getFoosBySimplePath(Alien alien) {
+
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("obj", alien);
+        mv.setViewName("home.jsp");
+
+        return mv;
+    }
+
 
 }
 

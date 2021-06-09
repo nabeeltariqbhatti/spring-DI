@@ -7,8 +7,8 @@ import com.exam.examportal.models.UserRole;
 
 public interface UserService {
 
-	// create user
+    // create user
 
-	public User createUser(User user, Set<UserRole> userRoles) throws Exception;
+    public User createUser(User user, Set<UserRole> userRoles) throws Exception;
 
 }

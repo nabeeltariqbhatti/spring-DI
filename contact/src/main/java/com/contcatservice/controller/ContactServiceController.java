@@ -15,13 +15,13 @@ import com.contcatservice.service.ContactService;
 @RequestMapping("/contact")
 public class ContactServiceController {
 
-	@Autowired
-	private ContactService contactService;
+    @Autowired
+    private ContactService contactService;
 
-	@GetMapping("/user/{userId}")
-	public List<Contact> getContacts(@PathVariable("userId") Long userId) {
+    @GetMapping("/user/{userId}")
+    public List<Contact> getContacts(@PathVariable("userId") Long userId) {
 
-		return contactService.getContactsOfUser(userId);
-	}
+        return contactService.getContactsOfUser(userId);
+    }
 
 }

@@ -4,13 +4,13 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
-@Profile({ "english", "default" })
+@Profile({"english", "default"})
 public class HelloWorldImpl implements HelloWorldService {
 
-	@Override
-	public String getGreeting() {
-		// TODO Auto-generated method stub
-		return "Hello World from Spring Boot";
-	}
+    @Override
+    public String getGreeting() {
+        // TODO Auto-generated method stub
+        return "Hello World from Spring Boot";
+    }
 
 }

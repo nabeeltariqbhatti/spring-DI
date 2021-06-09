@@ -17,35 +17,35 @@ import com.example.demo.userservice.UserService;
 @Service
 
 public class UserServiceImplementation implements UserService {
-	Map<String, UserRest> users;
+    Map<String, UserRest> users;
 
-	Utils utils;
+    Utils utils;
 
-	@Autowired
-	UserServiceImplementation() {
-	}
+    @Autowired
+    UserServiceImplementation() {
+    }
 
-	UserServiceImplementation(Utils utils) {
-		this.utils = utils;
-	}
+    UserServiceImplementation(Utils utils) {
+        this.utils = utils;
+    }
 
-	@Override
-	public UserRest createUser(@Valid UserDetail userDetail) {
-		UserRest returnValue = new UserRest();
-		returnValue.setFirstName(userDetail.getFirstName());
+    @Override
+    public UserRest createUser(@Valid UserDetail userDetail) {
+        UserRest returnValue = new UserRest();
+        returnValue.setFirstName(userDetail.getFirstName());
 
-		returnValue.setLastName(userDetail.getLastName());
-		returnValue.setEmail(userDetail.getEmail());
-		String userId = UUID.randomUUID().toString();
-		returnValue.setUserId(userId);
+        returnValue.setLastName(userDetail.getLastName());
+        returnValue.setEmail(userDetail.getEmail());
+        String userId = UUID.randomUUID().toString();
+        returnValue.setUserId(userId);
 
-		if (users == null) {
-			users = new HashMap<>();
-			users.put(userId, returnValue);
-		} else {
-			users.put(userId, returnValue);
-		}
-		return returnValue;
-	}
+        if (users == null) {
+            users = new HashMap<>();
+            users.put(userId, returnValue);
+        } else {
+            users.put(userId, returnValue);
+        }
+        return returnValue;
+    }
 
 }

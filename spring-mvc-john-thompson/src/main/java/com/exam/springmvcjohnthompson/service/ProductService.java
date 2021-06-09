@@ -6,8 +6,8 @@ import com.exam.springmvcjohnthompson.model.Product;
 
 public interface ProductService {
 
-	List<Product> listAllProducts();
+    List<Product> listAllProducts();
 
-	Product getProductById(Integer id);
+    Product getProductById(Integer id);
 
 }

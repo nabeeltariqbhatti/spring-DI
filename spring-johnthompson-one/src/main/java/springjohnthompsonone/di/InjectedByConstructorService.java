@@ -5,15 +5,15 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class InjectedByConstructorService {
-	private HelloWorldService hellowWorldService;
+    private HelloWorldService hellowWorldService;
 
-	@Autowired
-	public InjectedByConstructorService(HelloWorldService hellowWorldService) {
-		this.hellowWorldService = hellowWorldService;
-	}
+    @Autowired
+    public InjectedByConstructorService(HelloWorldService hellowWorldService) {
+        this.hellowWorldService = hellowWorldService;
+    }
 
-	public void getMessage() {
-		hellowWorldService.sayHello();
-	}
+    public void getMessage() {
+        hellowWorldService.sayHello();
+    }
 
 }

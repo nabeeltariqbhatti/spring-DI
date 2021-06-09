@@ -17,20 +17,20 @@ import com.userservice.service.UserService;
 @RequestMapping("/user")
 public class UserController {
 
-	@Autowired
-	private UserService userService;
+    @Autowired
+    private UserService userService;
 
-	@Autowired
-	private RestTemplate restTemplate;
+    @Autowired
+    private RestTemplate restTemplate;
 
-	@GetMapping("/{userId}")
-	public User getUser(@PathVariable("userId") Long userId) {
-		User user = userService.getUser(userId);
-		// http://localhost:9002/contact/user/12
-		List<Contact> contacts = this.restTemplate.getForObject("http://contact-service/contact/user/" + userId,
-				List.class);
-		user.setContacts(contacts);
-		return user;
-	}
+    @GetMapping("/{userId}")
+    public User getUser(@PathVariable("userId") Long userId) {
+        User user = userService.getUser(userId);
+        // http://localhost:9002/contact/user/12
+        List<Contact> contacts = this.restTemplate.getForObject("http://contact-service/contact/user/" + userId,
+                List.class);
+        user.setContacts(contacts);
+        return user;
+    }
 
 }

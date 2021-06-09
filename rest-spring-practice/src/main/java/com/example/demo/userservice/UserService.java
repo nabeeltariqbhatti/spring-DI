@@ -9,6 +9,6 @@ import com.example.demo.request.UserDetail;
 
 public interface UserService {
 
-	UserRest createUser(@Valid @RequestBody UserDetail userDetail);
+    UserRest createUser(@Valid @RequestBody UserDetail userDetail);
 
 }
