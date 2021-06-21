@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: guru.springframework.sfgrestdocsexample.web.controller.BeerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.758 s <<< FAILURE! - in guru.springframework.sfgrestdocsexample.web.controller.BeerControllerTest
+getBeerById  Time elapsed: 0.08 s  <<< ERROR!
+java.lang.NullPointerException: beerName is marked non-null but is null
+	at guru.springframework.sfgrestdocsexample.web.controller.BeerControllerTest.getBeerById(BeerControllerTest.java:59)
+
