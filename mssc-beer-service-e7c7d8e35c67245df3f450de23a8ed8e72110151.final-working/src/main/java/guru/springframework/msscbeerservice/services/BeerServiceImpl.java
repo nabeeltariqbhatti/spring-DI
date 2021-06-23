@@ -67,7 +67,7 @@ public class BeerServiceImpl implements BeerService {
                                     beerPage.getPageable().getPageSize()),
                     beerPage.getTotalElements());
         }
-
+        System.out.println(beerPagedList.stream().findFirst());
         return beerPagedList;
     }
 

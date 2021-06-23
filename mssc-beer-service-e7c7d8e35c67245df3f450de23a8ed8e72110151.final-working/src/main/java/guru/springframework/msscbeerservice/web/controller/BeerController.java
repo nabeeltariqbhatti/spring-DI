@@ -1,5 +1,6 @@
 package guru.springframework.msscbeerservice.web.controller;
 
+import guru.springframework.msscbeerservice.repositories.BeerRepository;
 import guru.springframework.msscbeerservice.services.BeerService;
 import guru.springframework.msscbeerservice.web.model.BeerDto;
 import guru.springframework.msscbeerservice.web.model.BeerPagedList;
@@ -25,6 +26,7 @@ public class BeerController {
     private static final Integer DEFAULT_PAGE_SIZE = 25;
 
     private final BeerService beerService;
+    private final BeerRepository beerRepository;
 
     @GetMapping(produces = { "application/json" }, path = "beer")
     public ResponseEntity<BeerPagedList> listBeers(@RequestParam(value = "pageNumber", required = false) Integer pageNumber,
@@ -46,6 +48,7 @@ public class BeerController {
         }
 
         BeerPagedList beerList = beerService.listBeers(beerName, beerStyle, PageRequest.of(pageNumber, pageSize), showInventoryOnHand);
+
 
         return new ResponseEntity<>(beerList, HttpStatus.OK);
     }
