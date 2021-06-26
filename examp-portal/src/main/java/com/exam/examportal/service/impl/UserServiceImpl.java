@@ -2,9 +2,13 @@ package com.exam.examportal.service.impl;
 
 import java.util.Set;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.ResponseStatus;
 
 import com.exam.examportal.models.User;
 import com.exam.examportal.models.UserRole;
@@ -14,6 +18,7 @@ import com.exam.examportal.service.UserService;
 
 @Service
 @Component
+@Transactional
 public class UserServiceImpl implements UserService {
 
     @Autowired
@@ -55,12 +60,21 @@ public class UserServiceImpl implements UserService {
         return user_local;
     }
 
+
+
+
 	@Override
 	public User getUserByUsername(String username) {
 		// TODO Auto-generated method stub
 		return userRepository.findByUserName(username);
 	}
     
+	
+    @Override
+	public void deleteByUsername(String username) {
+    	userRepository.deleteByUserName(username);
+    }
+
     
 
 }

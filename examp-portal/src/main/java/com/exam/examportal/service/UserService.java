@@ -12,5 +12,8 @@ public interface UserService {
     public User createUser(User user, Set<UserRole> userRoles) throws Exception;
     
     public User getUserByUsername(String username);
+  
+
+	public void deleteByUsername(String username);
 
 }
