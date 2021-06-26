@@ -3,6 +3,7 @@ package com.exam.examportal.service.impl;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import com.exam.examportal.models.User;
@@ -12,6 +13,7 @@ import com.exam.examportal.repo.UserRepository;
 import com.exam.examportal.service.UserService;
 
 @Service
+@Component
 public class UserServiceImpl implements UserService {
 
     @Autowired
