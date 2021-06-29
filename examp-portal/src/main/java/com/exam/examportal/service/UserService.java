@@ -16,4 +16,6 @@ public interface UserService {
 
 	public void deleteByUsername(String username);
 
+	public void saveUser(User userRetrieved);
+
 }
