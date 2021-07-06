@@ -34,6 +34,7 @@ public class UserServiceImpl implements UserService {
         User user_local = this.userRepository.findByUserName(user.getuserName());
 
         if (user_local != null) {
+        	System.out.println("called");
             try {
                 {
                     // deny user creation request
@@ -45,7 +46,7 @@ public class UserServiceImpl implements UserService {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }
-
+        return null;
         } else {
             // create user
 
@@ -54,10 +55,11 @@ public class UserServiceImpl implements UserService {
 
             }
             user.getUserRoles().addAll(userRoles);
-            user_local = this.userRepository.save(user);
+            User newuser = this.userRepository.save(user);
+            return newuser;
 
         }
-        return user_local;
+     
     }
 
 
